@@ -7,5 +7,5 @@ npm i @h21-map/path-drag-leaflet
 ```
 ### How to use
 ```bash
-import {Geodesic} from '@h21-map/path-drag-leaflet'
+import {Drag} from '@h21-map/path-drag-leaflet'
 ```
