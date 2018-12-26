@@ -1,0 +1,22 @@
+{
+  "name": "@h21-map/path-drag-leaflet",
+  "version": "1.0.1",
+  "scope":"@h21-map",
+  "description": "A library of Leaflet Map JS API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/novakand/h21-map-path-drag-leaflet"
+  },
+  "keywords": [
+    "leaflet",
+    "leaflet-map",
+    "drag",
+    "angular"
+  ],
+  "author": "",
+  "license": ""
+}
