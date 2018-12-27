@@ -1,10 +1,11 @@
 (function (global, factory) {
-    typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
+    typeof exports === 'object' && typeof module !== 'undefined' ? factory() :
         typeof define === 'function' && define.amd ? define(['exports'], factory) :
             (factory((global.L = {})));
-}(this, (function (exports) {
+}(this, (function () {
     'use strict';
-    var Draggable = L.PathDraggable = L.Draggable.extend({
+
+    L.PathDraggable = L.Draggable.extend({
 
         initialize: function (path) {
             this._path = path;
@@ -28,7 +29,6 @@
     });
 
     L.Handler.PathDrag = L.Handler.extend({
-
         initialize: function (path) {
             this._path = path;
         },
@@ -112,7 +112,6 @@
     });
 
     L.Path.include({
-
         eachLatLng: function (callback, context) {
             context = context || this;
             var loop = function (latlngs) {
@@ -135,7 +134,4 @@
         }
 
     });
-
-    exports.Draggable = L.Draggable;
-
 })));
