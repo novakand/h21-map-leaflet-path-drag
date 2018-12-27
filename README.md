@@ -5,7 +5,7 @@
 ```bash
 npm i @h21-map/path-drag-leaflet
 ```
-### How to use
+### How to use (dinamic import)
 ```bash
-import {Drag} from '@h21-map/path-drag-leaflet'
+ import('@h21-map/path-drag-leaflet');
 ```
