@@ -1,11 +1,11 @@
 
-# @h21-map/path-drag-leaflet
+# @h21-map/leaflet-path-drag
 
 ### Installation
 ```bash
-npm i @h21-map/path-drag-leaflet
+npm i @h21-map/leaflet-path-drag
 ```
 ### How to use (dinamic import)
 ```bash
- import('@h21-map/path-drag-leaflet');
+ import('@h21-map/leaflet-path-drag');
 ```
