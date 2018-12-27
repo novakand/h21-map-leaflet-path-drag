@@ -1,3 +1,6 @@
+/* A Draggable that does not update the element position
+and takes care of only bubbling to targetted path in Canvas mode. */
+
 (function (global, factory) {
     typeof exports === 'object' && typeof module !== 'undefined' ? factory() :
         typeof define === 'function' && define.amd ? define(['exports'], factory) :
